@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: red;
+}
+
+.header {
+  width: 100%;
+  background-color: red;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  top: 0;
+}
+
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.startpage {
+  max-width: fit-content;
+  margin: auto;
+  background-color: red;
+  padding: 128px 6px;
+}
+
+.startpage h2,
+.startpage h4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 20px;
+}
+
+.startpage h2 {
+  font-size: 50px;
+}
+
+.startpage h4 {
+  font-size: 24px;
+}
+
+.startpage button {
+  display: block;
+  margin: 20px auto;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.startpage button:hover {
+  background-color: #21825c;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  flex-direction: column;
+  height: 30vh;
+  padding: 0.01em 16px;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+  width: 100%;
+  box-sizing: inherit;
+}
+
+.lorem {
+  max-width: 100%;
+  padding: 64px 0;
+}
+
+.lorem p {
+  max-width: 600px;
+  padding: 0 20px;
+  text-align: left !important;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.lorem i {
+  color: red;
+  font-size: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: block;
+}
+.quote {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding: 10px;
+}
+
+.quote p {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.social {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 10px;
+}
+
+.social i {
+  margin-left: 10px;
+  font-size: 24px;
+  color: black;
+}
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
